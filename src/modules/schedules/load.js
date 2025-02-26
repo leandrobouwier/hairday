@@ -8,5 +8,4 @@ export function schedulesDay(){
 
     // renderiza as horas disponiveis
     hoursLoad({ date });
-
 }
