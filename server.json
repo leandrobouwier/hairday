@@ -1,3 +1,14 @@
 {
-    "schedules": []
+  "schedules": [
+    {
+      "id": 1741646442074,
+      "name": "Leandro Geraldo",
+      "when": "2025-03-11T00:00:00.000Z"
+    },
+    {
+      "id": 1741646452385,
+      "name": "Oneide Batista",
+      "when": "2025-03-11T00:00:00.000Z"
+    }
+  ]
 }
