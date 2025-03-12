@@ -1,6 +1,6 @@
 import dayjs from "dayjs";  
 
-import { scheduleNew } from "../../services/scedule-new"
+import { scheduleNew } from "../../services/schedule-new.js"
 import { schedulesDay } from "../schedules/load.js"
 
 // Seleciona os itens lá no HTML
@@ -40,7 +40,7 @@ form.onsubmit = async (event) => {
         const when = dayjs(selectedDate.value).add(hour, "Hour")
 
         // Gera um ID
-        const id = new Date().getTime();
+        const id = new Date().getTime().toString();
 
         // Faz agendamento
         await scheduleNew({
